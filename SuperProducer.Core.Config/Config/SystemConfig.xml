@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SystemConfig>
+  <!-- 用户登录超时时间/分钟 -->
+  <UserLoginTimeoutMinutes>60</UserLoginTimeoutMinutes>
+</SystemConfig>

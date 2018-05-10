@@ -1,0 +1,172 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Core", "_Core", "{4E19AC6E-4D9B-4053-95D1-248361AD0BE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Framework", "_Framework", "{A5AA75D2-6C3D-408D-8BF9-106A5034E1AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Cache", "SuperProducer.Core.Cache\SuperProducer.Core.Cache.csproj", "{55ED544D-E078-4F5D-A370-3FEFA2A906A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Config", "SuperProducer.Core.Config\SuperProducer.Core.Config.csproj", "{0F4335D8-8454-4C9C-B2DB-B758595ABC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Log", "SuperProducer.Core.Log\SuperProducer.Core.Log.csproj", "{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Message", "SuperProducer.Core.Message\SuperProducer.Core.Message.csproj", "{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Module", "SuperProducer.Core.Module\SuperProducer.Core.Module.csproj", "{9E067502-0B48-43D6-852E-51C7204E9231}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Service", "SuperProducer.Core.Service\SuperProducer.Core.Service.csproj", "{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Core.Utility", "SuperProducer.Core.Utility\SuperProducer.Core.Utility.csproj", "{E6FFE21B-564C-4533-BDC3-B394D1069CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.BLL", "SuperProducer.Framework.BLL\SuperProducer.Framework.BLL.csproj", "{9C1E20BD-1587-4959-BD00-4B5315304D98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.Contract", "SuperProducer.Framework.Contract\SuperProducer.Framework.Contract.csproj", "{B5266E81-5CFC-4611-BAF9-42AD292B4797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.DAL", "SuperProducer.Framework.DAL\SuperProducer.Framework.DAL.csproj", "{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.Model", "SuperProducer.Framework.Model\SuperProducer.Framework.Model.csproj", "{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperProducer.Framework.Web", "SuperProducer.Framework.Web\SuperProducer.Framework.Web.csproj", "{2587BB44-CA6C-4E2D-A815-7777C165FE72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{5EC15A3A-7670-42EB-A566-791B3D996AC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E067502-0B48-43D6-852E-51C7204E9231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1E20BD-1587-4959-BD00-4B5315304D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC15A3A-7670-42EB-A566-791B3D996AC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC15A3A-7670-42EB-A566-791B3D996AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC15A3A-7670-42EB-A566-791B3D996AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC15A3A-7670-42EB-A566-791B3D996AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55ED544D-E078-4F5D-A370-3FEFA2A906A2} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{0F4335D8-8454-4C9C-B2DB-B758595ABC27} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{D7E7A6E3-1F36-4AD1-AB2B-FC7F44B63D31} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{A5B91B00-6F6D-45E9-83E0-F53BF8AFA48F} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{9E067502-0B48-43D6-852E-51C7204E9231} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{9FB47C9C-BADA-4F03-B487-77C5D57B2EC8} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{E6FFE21B-564C-4533-BDC3-B394D1069CA1} = {4E19AC6E-4D9B-4053-95D1-248361AD0BE6}
+		{9C1E20BD-1587-4959-BD00-4B5315304D98} = {A5AA75D2-6C3D-408D-8BF9-106A5034E1AD}
+		{B5266E81-5CFC-4611-BAF9-42AD292B4797} = {A5AA75D2-6C3D-408D-8BF9-106A5034E1AD}
+		{E9584CFB-9366-44C1-9F34-76F4ED9DACAF} = {A5AA75D2-6C3D-408D-8BF9-106A5034E1AD}
+		{E3C37409-2FE9-4C8D-BA8F-227C8BEC4550} = {A5AA75D2-6C3D-408D-8BF9-106A5034E1AD}
+		{2587BB44-CA6C-4E2D-A815-7777C165FE72} = {A5AA75D2-6C3D-408D-8BF9-106A5034E1AD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D58DC94-C5FB-4093-A6F1-4C7AE7634A6E}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.16.1.250:8080/tfs/supertheatercollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConsoleApp\\ConsoleApp.csproj
+		SccProjectName1 = ConsoleApp
+		SccLocalPath1 = ConsoleApp
+		SccProjectUniqueName2 = SuperProducer.Core.Cache\\SuperProducer.Core.Cache.csproj
+		SccProjectTopLevelParentUniqueName2 = SuperProducer.sln
+		SccProjectName2 = SuperProducer.Core.Cache
+		SccLocalPath2 = SuperProducer.Core.Cache
+		SccProjectUniqueName3 = SuperProducer.Core.Config\\SuperProducer.Core.Config.csproj
+		SccProjectTopLevelParentUniqueName3 = SuperProducer.sln
+		SccProjectName3 = SuperProducer.Core.Config
+		SccLocalPath3 = SuperProducer.Core.Config
+		SccProjectUniqueName4 = SuperProducer.Core.Log\\SuperProducer.Core.Log.csproj
+		SccProjectTopLevelParentUniqueName4 = SuperProducer.sln
+		SccProjectName4 = SuperProducer.Core.Log
+		SccLocalPath4 = SuperProducer.Core.Log
+		SccProjectUniqueName5 = SuperProducer.Core.Message\\SuperProducer.Core.Message.csproj
+		SccProjectTopLevelParentUniqueName5 = SuperProducer.sln
+		SccProjectName5 = SuperProducer.Core.Message
+		SccLocalPath5 = SuperProducer.Core.Message
+		SccProjectUniqueName6 = SuperProducer.Core.Module\\SuperProducer.Core.Module.csproj
+		SccProjectTopLevelParentUniqueName6 = SuperProducer.sln
+		SccProjectName6 = SuperProducer.Core.Module
+		SccLocalPath6 = SuperProducer.Core.Module
+		SccProjectUniqueName7 = SuperProducer.Core.Service\\SuperProducer.Core.Service.csproj
+		SccProjectTopLevelParentUniqueName7 = SuperProducer.sln
+		SccProjectName7 = SuperProducer.Core.Service
+		SccLocalPath7 = SuperProducer.Core.Service
+		SccProjectUniqueName8 = SuperProducer.Core.Utility\\SuperProducer.Core.Utility.csproj
+		SccProjectTopLevelParentUniqueName8 = SuperProducer.sln
+		SccProjectName8 = SuperProducer.Core.Utility
+		SccLocalPath8 = SuperProducer.Core.Utility
+		SccProjectUniqueName9 = SuperProducer.Framework.BLL\\SuperProducer.Framework.BLL.csproj
+		SccProjectTopLevelParentUniqueName9 = SuperProducer.sln
+		SccProjectName9 = SuperProducer.Framework.BLL
+		SccLocalPath9 = SuperProducer.Framework.BLL
+		SccProjectUniqueName10 = SuperProducer.Framework.Contract\\SuperProducer.Framework.Contract.csproj
+		SccProjectTopLevelParentUniqueName10 = SuperProducer.sln
+		SccProjectName10 = SuperProducer.Framework.Contract
+		SccLocalPath10 = SuperProducer.Framework.Contract
+		SccProjectUniqueName11 = SuperProducer.Framework.DAL\\SuperProducer.Framework.DAL.csproj
+		SccProjectTopLevelParentUniqueName11 = SuperProducer.sln
+		SccProjectName11 = SuperProducer.Framework.DAL
+		SccLocalPath11 = SuperProducer.Framework.DAL
+		SccProjectUniqueName12 = SuperProducer.Framework.Model\\SuperProducer.Framework.Model.csproj
+		SccProjectTopLevelParentUniqueName12 = SuperProducer.sln
+		SccProjectName12 = SuperProducer.Framework.Model
+		SccLocalPath12 = SuperProducer.Framework.Model
+		SccProjectUniqueName13 = SuperProducer.Framework.Web\\SuperProducer.Framework.Web.csproj
+		SccProjectTopLevelParentUniqueName13 = SuperProducer.sln
+		SccProjectName13 = SuperProducer.Framework.Web
+		SccLocalPath13 = SuperProducer.Framework.Web
+	EndGlobalSection
+EndGlobal

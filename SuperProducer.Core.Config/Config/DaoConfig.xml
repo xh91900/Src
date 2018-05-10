@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DaoConfig>
+  <Main>Data Source=.;Initial Catalog=Test;Persist Security Info=True;User ID=sa;Password=111111</Main>
+  <Res>Data Source=.;Initial Catalog=Test;Persist Security Info=True;User ID=sa;Password=111111</Res>
+  <Log>Data Source=.;Initial Catalog=Test;Persist Security Info=True;User ID=sa;Password=111111</Log>
+</DaoConfig>
